@@ -26,7 +26,7 @@ jQuery(function($) {
 
             CMPLTADMIN_SETTINGS.mainmenuCollapsed();
 
-        } else if (width < 767) {
+        } else if (width < 840) {
 
             // small window
             $(".page-topbar").addClass("sidebar_shift").removeClass("chat_shift");
@@ -53,7 +53,7 @@ jQuery(function($) {
          Window Based Layout
      --------------------------------*/
     CMPLTADMIN_SETTINGS.onLoadTopBar = function() {
-        
+
             $(".page-topbar .message-toggle-wrapper").addClass("showopacity");
             $(".page-topbar .notify-toggle-wrapper").addClass("showopacity");
             $(".page-topbar .searchform").addClass("showopacity");
@@ -787,7 +787,7 @@ jQuery(function($) {
                         animate: true
                     },
                 });
-            } // Europe 
+            } // Europe
             mapid = $('#in_mill_en-map');
             if (mapid.length) {
                 mapid.vectorMap({
@@ -2273,8 +2273,8 @@ jQuery(function($) {
                     "html": true, //Button which allows you to edit the generated HTML. Default false
                     "link": true, //Button to insert a link. Default true
                     "image": true, //Button to insert an image. Default true,
-                    "color": true, //Button to change color of font  
-                    "blockquote": true, //Blockquote  
+                    "color": true, //Button to change color of font
+                    "blockquote": true, //Blockquote
                     "size": "none" //default: none, other options are xs, sm, lg
                 }
             });
@@ -2288,8 +2288,8 @@ jQuery(function($) {
                     "html": true, //Button which allows you to edit the generated HTML. Default false
                     "link": true, //Button to insert a link. Default true
                     "image": true, //Button to insert an image. Default true,
-                    "color": true, //Button to change color of font  
-                    "blockquote": false, //Blockquote  
+                    "color": true, //Button to change color of font
+                    "blockquote": false, //Blockquote
                     "size": "none" //default: none, other options are xs, sm, lg
                 }
             });
@@ -3569,7 +3569,7 @@ jQuery(function($) {
                   var switchery = new Switchery(html,defaults);
                 });
         }
- 
+
 
     };
 
@@ -3651,7 +3651,7 @@ jQuery(function($) {
 
 
     /******************************
-     initialize respective scripts 
+     initialize respective scripts
      *****************************/
     $(document).ready(function() {
         CMPLTADMIN_SETTINGS.windowBasedLayout();

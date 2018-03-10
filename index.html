@@ -51,100 +51,7 @@
                         <i class="fa fa-bars"></i>
                     </a>
                 </li>
-                <li class="message-toggle-wrapper">
-                    <a href="#" data-toggle="dropdown" class="toggle">
-                        <i class="fa fa-envelope"></i>
-                        <span class="badge badge-accent">7</span>
-                    </a>
-                    <ul class="dropdown-menu messages animated fadeIn">
 
-                        <li class="list">
-
-                            <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
-                                <li class="unread status-available">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Clarine Vassar</strong>
-                                                    <span class="time small">- 15 mins ago</span>
-                                                    <span class="profile-status available pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Sometimes it takes a lifetime to win a battle.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-away">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Brooks Latshaw</strong>
-                                                    <span class="time small">- 45 mins ago</span>
-                                                    <span class="profile-status away pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Sometimes it takes a lifetime to win a battle.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-busy">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Clementina Brodeur</strong>
-                                                    <span class="time small">- 1 hour ago</span>
-                                                    <span class="profile-status busy pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Sometimes it takes a lifetime to win a battle.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-offline">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="data/profile/avatar-4.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Carri Busey</strong>
-                                                    <span class="time small">- 5 hours ago</span>
-                                                    <span class="profile-status offline pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Sometimes it takes a lifetime to win a battle.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-
-
-
-
-                            </ul>
-
-                        </li>
-
-                        <li class="external">
-                            <a href="javascript:;">
-                                <span>Read All Messages</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                </li>
                 <li class="notify-toggle-wrapper">
                     <a href="#" data-toggle="dropdown" class="toggle">
                         <i class="fa fa-bell"></i>
@@ -228,13 +135,63 @@
             </ul>
         </div>
         <div class='pull-right'>
+          <div class="top-nav">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-container" aria-expanded="false">
+                            <span class="toggle-text">Menu</span>
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+          <div class="collapse navbar-collapse" id="main-nav-container">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#" role="button">Home</a>
+              </li>
+              <li class="">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  About<span class="angle"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#" role="button">About Court</a></li>
+                  <li><a href="#" role="button">History</a></li>
+
+                </ul>
+              </li>
+
+
+
+
+
+              <li >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  Bench List<span class="angle"></span>  </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#" class="mega"><span class="menu-title">Bench Lists 2018</span></a></li>
+                  <li><a href="#" class="mega"><span class="menu-title">Bench Lists 2017</span></a></li>
+
+                </ul>
+              </li>
+
+
+
+              <li >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                      Sittings<span class="angle"></span>
+                                    </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="product.html">Suspension of Sittings</a></li>
+                </ul>
+              </li>
+
+
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
             <ul class="info-menu right-links list-inline list-unstyled">
                 <li class="profile">
                     <a href="#" data-toggle="dropdown" class="toggle">
                         <img src="data/profile/profile.jpg" alt="user-image" class="img-circle img-inline">
-                        <span>Shane Taylor <i class="fa fa-angle-down"></i></span>
+                        <span> <span class="user-name">Shane Taylor</span> <i class="fa fa-angle-down"></i></span>
                     </a>
-                    <ul class="dropdown-menu profile animated fadeIn">
+                    <ul class="dropdown-menu menu-right profile animated fadeIn">
                         <li>
                             <a href="#settings">
                                 <i class="fa fa-wrench"></i>
@@ -261,13 +218,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="chat-toggle-wrapper">
-                    <a href="#" data-toggle="chatbar" class="toggle_chat">
-                        <i class="fa fa-comments"></i>
-                        <span class="badge badge-accent">9</span>
-                        <i class="fa fa-times"></i>
-                    </a>
-                </li>
+
             </ul>
         </div>
     </div>
@@ -314,27 +265,15 @@
         <ul class='wraplist'>
 
             <li class='menusection'>Navigation</li>
-                    <li class="open">
-                    <a class="" href="index.html">
-                    <i class="fa fa-dashboard"></i>
-                    <span class="title">Home</span>
-                    </a>
-                    </li>
 
-                    <li class="">
+
+                    <li class="open">
                     <a href="javascript:;">
                     <i class="fa fa-gavel"></i>
                     <span class="title">Judgments</span>
                         <span class="arrow "></span>
                         </a>
-                        <ul class="sub-menu" >
-                            <li>
-                            <a class="" href="#">option link 1</a>
-                            </li>
-                            <li>
-                            <a class="" href="#">option link 2</a>
-                            </li>
-                        </ul>
+
                     </li>
 
                     <li class="">
