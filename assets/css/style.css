@@ -14,7 +14,7 @@ html.boxed{
 
 body {
     background-color: #eeeeee;
-    color: rgba(118, 118, 118, 1.0);
+    color: rgb(60, 60, 60);
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding: 0px !important;
@@ -3701,6 +3701,7 @@ blockquote.accent{ border-color: #E91E63; }
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
     border-color: #eaeaea;
     padding: 10px;
+    font-size: 13px;
 }
 /*---------------------------------------------
     Data Tables

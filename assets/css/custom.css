@@ -169,6 +169,51 @@ label {
     display: inline-block;
     vertical-align: middle;
 }
+.inline-radio .radiobox {
+    display: inline-block;
+    margin-right: 15px;
+}
+.head-row {
+    background-color: #dcdcdc !important;
+    color: #333333;
+    font-weight: 600;
+}
+.head-row-dark {
+    background-color: #585757 !important;
+    color: white;
+}
+
+.head-row td {
+    padding: 10px 11px !important;
+    border-color: #bfbebe !important;
+}
+.index-link {
+    display: flex;
+    justify-content: flex-end;
+}
+.link-block {
+    margin-left: 6px;
+    background-color: #444343;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    font-size: 11px;
+    color: #e0e0e0;
+}
+.index-link label {
+    margin-right: 3px;
+    display: block;
+    color: white;
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.link-block strong {
+    margin-right: 7px;
+    font-size: 10px;
+}
+.link-block a {
+    color: #fd5b4a;
+}
 @media (max-width: 920px) {
 
 .profile .user-name{
